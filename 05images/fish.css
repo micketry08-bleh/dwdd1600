@@ -1,0 +1,157 @@
+body {
+   header {
+        font-family: "Kirang Haerang", system-ui;
+    } 
+    h1 {
+        font-family: "Kirang Haerang", system-ui;
+    }
+    h2 {
+        font-family: "Kirang Haerang", system-ui;}
+     font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+/*header stuff*/
+header {
+    background-color:#006699;
+    padding: 1rem 10px;
+}
+header span {
+    color: #ffe6cc;
+    font-size: 2rem;
+}
+
+/*navigation stuff*/
+nav {
+    background-color:#8F272F;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #ffe6cc;
+    font-weight: 600;
+}
+nav li.active a{
+    background-color:#ffe6cc;
+    color: #8F272F;
+}
+
+nav li a:hover {
+    color: #006699;
+}
+
+/*main stuff*/
+main {
+    padding: 1rem 10px;
+    background-color:#05718a;
+}
+main h1 {
+    color: #ffe0e0;
+    font-weight:100;
+    font-size: 2.5rem;
+}
+main h2 {
+    color: #ffe6cc;
+    font-weight:100;
+    font-size: 1.8rem;
+    margin-bottom: .2rem;
+}
+main p {
+    margin: 0;
+    color: white;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color:#8F272F;
+    color:white;
+}
+main dl dt {
+    color:#ffe6cc;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd {
+    color: white;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    color: white;
+}
+main em {
+    font-weight:300;
+    color:#ffe6cc;
+}
+main address {
+    font-style: normal;
+    background-color:#8F272F;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #ffe6cc;
+    color: white;
+    width: 200px;
+}
+main a {
+    color: #ffe6cc;
+}
+main a:hover {
+    color:#ffe0e0;
+}
+
+/*main image stuff here*/
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 40%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    color: white;
+    text-align: center;
+    font-size:.75rem;
+}
+
+/*gallery stuff*/
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+   gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color:#ffe6cc;
+}
+/*footer stuff*/
+
+footer {
+    background-color:#006699;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: white;
+
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
