@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mick Holloway">
+    <meta name="description" content="Discover the top 10 best fish in the world and why they're so great.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kirang+Haerang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fish.css">
+    <title>Fishin: Top 10 Best Fish</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!--start the page header-->
+    <header>
+        <img src="images/fishinlogo.png" alt="Fishin Logo" width="50" height="50">
+        <span>Fishin</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Top 10 Best Fish</a></li>
+            <li><a href="ranking.html">Ranking & Statistics</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="survey.html">User Survey</a></li>
+        </ul>
+
+    </nav>
+    <!--start the main content-->
+    <main>
+        <h1>User Survey</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+        <fieldset>
+            <legend>User Information</legend>
+            <label>First Name*<input type="text" name="name" required placeholder="John Doe"></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            <label>Email*<input type="email" name="email" required placeholder="john.doe@example.com"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Did You Like Our Fish List?</legend>
+            <label><input type="radio" name="liked" value="yes">I loved it!</label>
+            <label><input type="radio" name="liked" value="no">I HATED it D:</label>
+            <label><input type="radio" name="liked" value="meh">It was okay...</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Which Fish Did You Like?</legend>
+            <label><input type="checkbox" name="Sardine" value="chosen">Sardine</label>
+            <label><input type="checkbox" name="Angelfish" value="chosen">Angelfish</label>
+            <label><input type="checkbox" name="Sunfish" value="chosen">Sunfish</label>
+            <label><input type="checkbox" name="Salmon" value="chosen">Salmon</label>
+            <label><input type="checkbox" name="Catfish" value="chosen">Catfish</label>
+            <label><input type="checkbox" name="Tuna" value="chosen">Tuna</label>
+            <label><input type="checkbox" name="Lionfish" value="chosen">Lionfish</label>
+            <label><input type="checkbox" name="Conger" value="chosen">Conger</label>
+            <label><input type="checkbox" name="Barracuda" value="chosen">Barracuda</label>
+            <label><input type="checkbox" name="Sailfish" value="chosen">Sailfish</label>
+        
+
+            <label>Do You Feel Informed About Your Chosen Fish?
+            <select name="informed">
+                <option value="none">Please Select</option>
+                <option value="not">Not Informed</option>
+                <option value="somewhat">Somewhat Informed</option>
+                <option value="very">Very Informed</option>
+            </select>
+            </label>
+       </fieldset>
+
+       <label>Comments
+            <textarea name="comments" placeholder="I love fish!"></textarea>
+       </label>
+
+        <input type="submit" value="Send Survey Response">
+        </form>
+    </main>
+
+    <!--start the footer-->
+    <footer>
+        <p>&copy; 2026 &bull; Fishin &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
